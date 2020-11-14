@@ -1,0 +1,303 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+section{
+	padding: 50px 0;
+}
+
+.pd{
+	padding:0 15px;
+}
+
+/* header part */
+
+header{
+	padding: 30px 0;
+	background: #f6f9f9;
+}
+
+
+/* banner part */
+
+.banner{
+   background: url(../img/banner.jpg);
+   padding: 80px 0px;
+   text-align: center;
+   color: #fff;
+}
+.banner-box{
+	width: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 140px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 40px 0px;
+	padding-bottom: 30px;
+}
+.banner-box p{
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+ .border{
+	width: 100%;
+	height:2px;
+	background: #15a4fa;
+	margin: 20px 0;
+	
+}
+
+.btn{
+	font-size: 18px;
+	padding: 20px 10px;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	margin-bottom: 150px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.fa.fa-chevron-down{
+	font-size: 20px;
+}
+
+
+
+
+/* simple part */
+
+.simple{
+	background-color: #f6f9f9;
+	text-align: center;
+}
+h2{
+	padding: 10px;
+	color: #2d3950;
+	font-size: 40px;
+	margin-bottom: 35px;
+}
+
+.simple p{
+	color: #999999;
+	font-size: 17px;
+}
+/* feature part */
+
+.feature{
+	background: #ffffff;
+}
+
+.feature-box{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+	text-align: center;
+}
+
+.feature-box:last-child{
+	margin-right: 0;
+}
+.icon{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(90deg, #48baff, #5fc3ff);
+	margin: 0 auto;
+	margin-bottom: 30px;
+	position: relative;
+}
+.fa-mobile, .fa-paper-plane, .fa-volume-down{
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+        
+.feature-box h2{
+    margin-bottom: 28px;
+    color: #495367;
+    font-size: 20px;
+}
+        
+.feature-box p{
+    color: #495367;
+    font-size: 18px;
+}
+
+/* showcase part */
+.showcase{
+	background: #f6f9f9;
+	text-align: center;
+}
+.showcase p{
+	color: #999999;
+	font-size: 15px;
+	margin-bottom: 50px;
+	
+}
+
+.showcase-box{
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+}
+.showcase-box img{
+	width: 100%;
+	height: 240px;
+	overflow: hidden;
+}
+.hober{
+	width: 100%;
+	height: 250px;
+	background: #1697e7;
+	position: absolute;
+	top: 0;
+	left: 388px;
+	opacity: 0.6;
+	display: none;
+}
+.hober-box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+}
+
+.fa-search-plus, .fa-link{
+	padding: 10px 15px;
+	font-size: 18px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.fa-search-plus{
+	margin-right: 15px;
+}
+.showcase-box:hover  footer{
+    padding: 15px 0;
+}
+.showcase-box:hover .hober{
+	left: 0;
+	display: block;
+}
+
+
+.nm{
+	margin-right: 0px;
+}
+
+
+/* stay part */
+.stay{
+	background: url(../img/bbb.jpg);
+	text-align: center;
+}
+.stay h2{
+	color: #fff;
+}
+
+.stay p{
+	color: #999999;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+.stay-box{
+	width: 60%;
+	margin: 0 auto;
+}
+
+input[type=text],
+textarea{
+	width: 100%;
+	background: transparent;
+	color: #999999;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 20px 10px;
+	outline: 0;
+	margin-bottom: 20px;
+}
+
+.check{
+	width: 50%;
+	text-align: left;
+	float: left;
+	color: #9ea4ac;
+	padding-top: 35px;
+}
+
+.check input{
+	border-radius: 5px;
+}
+
+.check span{
+	margin-left: 10px;
+	font-size: 16px;
+	color: #999999;
+}
+.submit{
+	padding-top: 20px;
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+button{
+	font-size: 18px;
+	padding: 20px 52px;
+	border: 1px solid#15a4fa;
+	background: transparent;
+	color: #fff;
+	outline: 0;
+
+/* footer part */	
+}
+ footer{
+    padding: 15px 0;
+}
+
+.social{
+    padding: 10px 0;
+    float: right;
+}
+
+
+footer p{
+    padding: 20px 0;
+    float: left;
+    font-size: 15px;
+    color: #acacac;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin{
+    font-size: 16px;
+    padding: 15px;
+    background-color: #15a4fa;
+    color: #ffffff;
+    margin-right: 5px;
+}
